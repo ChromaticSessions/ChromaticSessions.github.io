@@ -22,3 +22,13 @@ Frontend hosting for the Chromatic art collective
 - light is energy
 - colour is light
 - energy is frequency
+
+# what does "colourful" mean?
+- different theme for every day of the week
+ - monday: red
+ - tuesday: orange
+ - wednesday: yellow
+ - thursday: green
+ - friday: blue
+ - saturday: purple
+ - sunday: "clear"
