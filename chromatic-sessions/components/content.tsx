@@ -1,6 +1,8 @@
+"use client";
+
 import React from "react";
 
-import "@/styles/global.css";
+import "@/app/globals.css";
 
 export default function Content() {
   return (
