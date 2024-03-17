@@ -9,3 +9,8 @@
     margin: 0;
     text-align: center;
 }
+
+.header a {
+    color: var(--text-colour);
+    text-decoration: none;
+}

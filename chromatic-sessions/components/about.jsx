@@ -1,6 +1,8 @@
 "use client";
 
-export default function About() {
+import React from "react";
+
+export function About() {
   return (
     <div>
       <h2>About</h2>

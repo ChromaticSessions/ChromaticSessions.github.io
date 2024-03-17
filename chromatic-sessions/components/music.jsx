@@ -1,6 +1,8 @@
 "use client";
 
-export default function Music() {
+import React from "react";
+
+export function Music() {
   return (
     <div>
       <h2>Music</h2>

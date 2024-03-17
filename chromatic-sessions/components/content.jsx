@@ -1,10 +1,10 @@
-"use client";
+// "use client";
 
 import React from "react";
 
-import "@/app/globals.css";
+import "../src/globals.css";
 
-export default function Content() {
+export function Content() {
   return (
     <div>
       <h2>Content</h2>
