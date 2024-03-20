@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --link-colour: #0070f3;
+  --link-hover-colour: #0366d6;
+
+  --border-radius: 5px;
+  
+  --font-family: Roboto, sans-serif;
+  
+  /* background-image: linear-gradient(180deg, var(--colour-primary) 0%, var(--colour-secondary) 100%); */
+  background-color: var(--colour-primary);
+  color: var(--colour-tertiary);
+  font-family: var(--font-family);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+
+  /* Colours that should change based on day */
+  --colour-primary: #453f3c;
+  --colour-secondary: #797270;
+  --colour-tertiary: #c1edcc;
+  --box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);  
+}

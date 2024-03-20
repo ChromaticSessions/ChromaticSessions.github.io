@@ -1,6 +1,6 @@
 .nav {
-    color: var(--text-colour);
-    background-color: var(--background-colour);
+    background-color: var(--colour-primary);
+    color: var(--colour-tertiary);
     margin-bottom: 1rem;
 }
 
@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #dddddd;
+    background-color: var(--colour-primary);
 }
 
 .nav li {
@@ -18,5 +18,5 @@
 }
 
 .nav li:hover {
-    background-color: #f1f1f1;
+    background-color: var(--colour-secondary);
 }
