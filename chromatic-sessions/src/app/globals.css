@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --background-colour: #e8e8e8;
-  --text-colour: #333;
+  --primary-colour: #e8e8e8;
+  --secondary-colour: #333;
+  --tertiary-colour: lavender;
+
   --link-colour: #0070f3;
   --link-hover-colour: #0366d6;
   --border-colour: #eaeaea;
@@ -13,7 +15,7 @@
 
   --font-family: Roboto, sans-serif;
 
-  background-color: var(--background-colour);
+  background-color: var(--primary-colour);
   font-family: var(--font-family);
   padding: 20px;
   margin: 0 auto;
@@ -21,6 +23,6 @@
 }
 
 div, p, br {
-  background-color: var(--background-colour);
-  color: var(--text-colour);
+  background-color: var(--primary-colour);
+  color: var(--secondary-colour);
 }

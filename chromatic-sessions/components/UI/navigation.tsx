@@ -21,18 +21,6 @@ export default function Navigation() {
         <li>
           <Link to="/art">Art</Link>
         </li>
-        {/* <li>
-          <a href="/sessions">Sessions</a>
-        </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <a href="/music">Music</a>
-        </li>
-        <li>
-          <a href="/art">Art</a>
-        </li> */}
       </ul>
     </nav>
   );

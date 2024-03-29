@@ -1,7 +1,7 @@
 .header {
     font-family: 'Roboto', sans-serif;
     background-color: rgba(0, 0, 0, 0);
-    color: var(--colour-tertiary);
+    color: var(--tertiary-colour);
     /* background-color: var(--colour-primary); */
 }
 
@@ -12,6 +12,6 @@
 }
 
 .header a {
-    color: var(--colour-tertiary);
+    color: var(--tertiary-colour);
     text-decoration: none;
 }

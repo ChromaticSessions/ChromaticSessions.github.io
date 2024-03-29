@@ -1,17 +1,36 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 
 import styles from "./header.module.css";
 
 import Navigation from "./navigation";
+import { Link } from "react-router-dom";
 
 export function Header() {
+  useEffect(() => {
+    const root = document.querySelector(":root") as HTMLElement;
+
+    if (!root) {
+      console.log("No root element found");
+      return;
+    }
+
+    const day = new Date().getDay();
+    console.log("Day: " + day);
+    if (day == 7) {
+      root.style.setProperty("--primary-colour", "blue");
+    } else {
+      root.style.setProperty("--primary-colour", "lime");
+    }
+    console.log("Content rendered");
+  }, []);
+
   return (
     <header className={styles.header}>
-      <a href="/">
+      <Link to="/">
         <h1>Chromatic Sessions</h1>
-      </a>
+      </Link>
 
       <Navigation />
     </header>
