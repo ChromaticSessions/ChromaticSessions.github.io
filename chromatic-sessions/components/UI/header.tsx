@@ -20,6 +20,8 @@ export function Header() {
     console.log("Day: " + day);
     if (day == 7) {
       root.style.setProperty("--primary-colour", "blue");
+    } else if (day == 5) {
+      root.style.setProperty("--primary-colour", "red");
     } else {
       root.style.setProperty("--primary-colour", "lime");
     }
